@@ -1,0 +1,8 @@
+Nookford unattended capability probe
+UTC time: 2026-11-22T18:16Z (approx; checked 18:15:47Z)
+
+1. Buffer list_channels (org 6b02473cf6a79e918574f78b): YES. 2 channels returned: instagram (nookfordstudios, business, connected) and pinterest (NookFordStudio, business, connected). No error.
+2. Gumroad list_products: YES. 13 products returned (10 published, 3 unpublished). No error.
+3. /home/claude/nookford-factory exists: NO. Error: "ls: cannot access '/home/claude/nookford-factory': No such file or directory"
+4. mcp__remote-devices__* tools available (linked Mac): NO. ToolSearch returned "No matching deferred tools found"; no desktop bridge in this run.
+5. Repo push: add_repo tool not available in this session (not found) and no git/gh clone path; repo was already in the session's GitHub scope, so this file was committed via the GitHub MCP create_or_update_file tool instead of a local clone + git push.
